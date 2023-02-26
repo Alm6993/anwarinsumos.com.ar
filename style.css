@@ -6,7 +6,7 @@
 
 html {
   font-size: 62, 5%;
-  background-color: grey;
+  background-color:#B3B3B3;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -31,6 +31,7 @@ html {
 .nav_list {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 
 .nav_li {
@@ -49,6 +50,10 @@ html {
 .nav_items {
   text-decoration: none;
   color: orange;
+}
+
+.img_carrito{
+width: 3rem;
 }
 
 .banner {
@@ -143,8 +148,11 @@ html {
 
 .but {
   width: 100%;
-  background-color: orange;
+  background: none;
   border: none;
+  color: white;
+  font-family: 'Roboto';
+  text-transform: uppercase;
   border-bottom: solid 2px orange;
 }
 
