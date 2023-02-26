@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.header_index {
+  top: 0;
+  position: sticky;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: solid 3px orange;
+  box-shadow: 0px 3px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_li {
+  margin: 0 2rem 0 1rem;
+  list-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.nav_list :hover {
+  opacity: 0.7;
+  color: red;
+}
+
+.nav_items {
+  text-decoration: none;
+  color: orange;
+}
+
+.banner {
+  background-color: red;
+  background-image: url(images/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: top center;
+}
+
+.imgLog {
+  height: 10vh;
+}
+
+.artDoble {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cuadradoSim {
+  height: 50vh;
+  width: 100vh;
+  border: solid 0.3rem black;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.cuadradoDoble {
+  height: 50vh;
+  width: 50vh;
+  border: solid 0.3rem black;
+  margin: 2rem;
+  padding: 2rem;
+}
+.par {
+  font-size: 1.5rem;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.tutiloIndex {
+  font-size: 5rem;
+  z-index: 1;
+  padding-top: 40%;
+}
+
+.tituloDoble {
+  font-size: 3rem;
+  z-index: 1;
+  padding-top: 5rem;
+  text-shadow: 0px 1px 2px 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.tutiloIndex,
+.tituloDoble {
+  text-align: center;
+  color: white;
+}
+
+/* CONTACTANOS */
+
+.containerC {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.forms {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: orange;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.coll {
+  background: none;
+  border: none;
+  border-bottom: solid 0.2rem orange;
+}
+
+.but {
+  width: 100%;
+  background-color: orange;
+  border: none;
+  border-bottom: solid 2px orange;
+}
+
+.but:hover {
+  opacity: 0.7;
+}
+
+.colCol {
+  margin: 0.5rem;
+}
+
+.Insumos{
+display: flex;
+flex-direction: column;
+}
+
+
+/* TIENDA */
+
+.tienda_title{
+  padding: 1rem 0 0 2rem;
+
+}
+
+.tienda_2title{
+  padding: 2rem;
+}
+
+.tienda_title, .tienda_2title{
+color: white;
+}
+
+.card{
+width: 20%;
+height: 30%;
+margin: 4rem 0 2rem 0;
+text-align: center;
+}
+
+.card_title{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.card_2title, .card_precio{
+font-size: 1rem;
+font-weight: 400;
+}
+
+.card_title, .card_2title, .card_precio{
+  color: white;
+  padding: .5rem;
+}
+
+.card_prod{
+  width: 100%;
+  text-align: center;
+}
+
+.Insumos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateX(-1%);
+    transform: translateY(-1%);
+  }
+
+
+       /*   <h3 class="card_title">Cera</h3>
+          <h4 class="card_2title">Cera de Soja Hidrogenada</h4>
+          <div class="card_prod"><img src="" alt="" /></div>
+          <h5 class="card_precio" /*
